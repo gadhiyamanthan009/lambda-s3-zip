@@ -10,9 +10,9 @@ Metadata:
     LicenseUrl: LICENSE
     ReadmeUrl: README.md
     Labels: ['lambda', 's3', 'zip', 'compress']
-    HomePageUrl: https://github.com/carvantes/lambda-s3-zip
+    HomePageUrl: https://github.com/gadhiyamanthan009/lambda-s3-zip.git
     SemanticVersion: 0.1.0
-    SourceCodeUrl: https://github.com/carvantes/lambda-s3-zip
+    SourceCodeUrl: https://github.com/gadhiyamanthan009/lambda-s3-zip.git
 
 Resources:
 
@@ -21,7 +21,7 @@ Resources:
         Properties:
             CodeUri: src/
             Handler: app.lambdaHandler
-            Runtime: nodejs8.10
+            Runtime: nodejs16.x
             Timeout: 300
             MemorySize: 1024
             Policies:
